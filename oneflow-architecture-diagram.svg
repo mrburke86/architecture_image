@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680">
+  <!-- Background -->
+  <rect width="1000" height="680" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="500" y="30" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">OneFlow Architecture Overview</text>
+  
+  <!-- Cloud Providers -->
+  <rect x="20" y="60" width="960" height="600" rx="10" ry="10" fill="#e6f7ff" stroke="#0099cc" stroke-width="2" stroke-dasharray="5,5" opacity="0.5" />
+  <text x="100" y="80" font-family="Arial" font-size="16" font-weight="bold" fill="#0066cc">Primary: Google Cloud Platform</text>
+  
+  <rect x="750" y="85" width="200" height="90" rx="5" ry="5" fill="#e6e6ff" stroke="#6666cc" stroke-width="2" opacity="0.6" />
+  <text x="850" y="105" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#6666cc">Azure Redundancy</text>
+  <text x="850" y="125" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666cc">• AKS</text>
+  <text x="850" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666cc">• Azure Database</text>
+  <text x="850" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666cc">• Azure Blob Storage</text>
+  
+  <!-- Client Layer -->
+  <rect x="50" y="110" width="670" height="80" rx="5" ry="5" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <text x="385" y="135" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Client Layer</text>
+  
+  <rect x="80" y="150" width="120" height="30" rx="15" ry="15" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+  <text x="140" y="170" font-family="Arial" font-size="12" text-anchor="middle">Web Browser</text>
+  
+  <rect x="220" y="150" width="120" height="30" rx="15" ry="15" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+  <text x="280" y="170" font-family="Arial" font-size="12" text-anchor="middle">Mobile App</text>
+  
+  <rect x="360" y="150" width="120" height="30" rx="15" ry="15" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+  <text x="420" y="170" font-family="Arial" font-size="12" text-anchor="middle">Desktop App</text>
+  
+  <rect x="500" y="150" width="190" height="30" rx="15" ry="15" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+  <text x="595" y="170" font-family="Arial" font-size="12" text-anchor="middle">Third-Party Integrations</text>
+  
+  <!-- Frontend Layer -->
+  <rect x="50" y="210" width="670" height="80" rx="5" ry="5" fill="#e1f5fe" stroke="#03a9f4" stroke-width="2" />
+  <text x="385" y="235" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#0277bd">Frontend Layer (Next.js 14 with App Router)</text>
+  
+  <rect x="80" y="250" width="120" height="30" rx="5" ry="5" fill="#b3e5fc" stroke="#03a9f4" stroke-width="1" />
+  <text x="140" y="270" font-family="Arial" font-size="12" text-anchor="middle">Server Components</text>
+  
+  <rect x="220" y="250" width="120" height="30" rx="5" ry="5" fill="#b3e5fc" stroke="#03a9f4" stroke-width="1" />
+  <text x="280" y="270" font-family="Arial" font-size="12" text-anchor="middle">Client Components</text>
+  
+  <rect x="360" y="250" width="120" height="30" rx="5" ry="5" fill="#b3e5fc" stroke="#03a9f4" stroke-width="1" />
+  <text x="420" y="270" font-family="Arial" font-size="12" text-anchor="middle">API Routes</text>
+  
+  <rect x="500" y="250" width="190" height="30" rx="5" ry="5" fill="#b3e5fc" stroke="#03a9f4" stroke-width="1" />
+  <text x="595" y="270" font-family="Arial" font-size="12" text-anchor="middle">Edge Runtime Functions</text>
+  
+  <!-- API Gateway -->
+  <rect x="50" y="310" width="670" height="50" rx="5" ry="5" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" />
+  <text x="385" y="340" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">API Gateway / Load Balancer</text>
+  
+  <!-- Microservices Layer -->
+  <rect x="50" y="380" width="670" height="120" rx="5" ry="5" fill="#fff3e0" stroke="#ff9800" stroke-width="2" />
+  <text x="385" y="405" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">Microservices Layer (Kubernetes/Docker)</text>
+  
+  <rect x="70" y="425" width="100" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="120" y="445" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Project</text>
+  <text x="120" y="460" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Tracking</text>
+  <text x="120" y="475" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Service</text>
+  
+  <rect x="180" y="425" width="100" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="230" y="445" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Communication</text>
+  <text x="230" y="460" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Service</text>
+  
+  <rect x="290" y="425" width="100" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="340" y="445" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Asset</text>
+  <text x="340" y="460" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Management</text>
+  <text x="340" y="475" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Service</text>
+  
+  <rect x="400" y="425" width="100" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="450" y="445" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Sales &</text>
+  <text x="450" y="460" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Marketing</text>
+  <text x="450" y="475" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Service</text>
+  
+  <rect x="510" y="425" width="100" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="560" y="445" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Financial</text>
+  <text x="560" y="460" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Service</text>
+  
+  <rect x="620" y="425" width="80" height="60" rx="5" ry="5" fill="#ffe0b2" stroke="#ff9800" stroke-width="1" />
+  <text x="660" y="455" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Other</text>
+  <text x="660" y="470" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Services</text>
+  
+  <!-- Database & Storage Layer -->
+  <rect x="50" y="520" width="430" height="120" rx="5" ry="5" fill="#e1f1f8" stroke="#039be5" stroke-width="2" />
+  <text x="265" y="545" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#0277bd">Database & Storage Layer</text>
+  
+  <rect x="70" y="565" width="120" height="60" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1" />
+  <text x="130" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">PostgreSQL</text>
+  <text x="130" y="610" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">(Multi-tenant)</text>
+  
+  <rect x="210" y="565" width="110" height="60" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1" />
+  <text x="265" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Redis Cache</text>
+  
+  <rect x="340" y="565" width="120" height="60" rx="5" ry="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1" />
+  <text x="400" y="595" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Google Cloud</text>
+  <text x="400" y="610" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Storage</text>
+  
+  <!-- AI & Integration Layer -->
+  <rect x="500" y="520" width="220" height="120" rx="5" ry="5" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" />
+  <text x="610" y="545" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#7b1fa2">AI & Integration Layer</text>
+  
+  <rect x="520" y="565" width="80" height="60" rx="5" ry="5" fill="#e1bee7" stroke="#9c27b0" stroke-width="1" />
+  <text x="560" y="590" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Claude 3.7</text>
+  <text x="560" y="605" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Sonnet</text>
+  
+  <rect x="620" y="565" width="80" height="60" rx="5" ry="5" fill="#e1bee7" stroke="#9c27b0" stroke-width="1" />
+  <text x="660" y="590" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">GPT</text>
+  <text x="660" y="605" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">Models</text>
+  
+  <!-- DevOps & Monitoring -->
+  <rect x="750" y="210" width="200" height="430" rx="5" ry="5" fill="#f5f5f5" stroke="#616161" stroke-width="2" />
+  <text x="850" y="235" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#424242">DevOps & Monitoring</text>
+  
+  <rect x="770" y="255" width="160" height="60" rx="5" ry="5" fill="#eeeeee" stroke="#616161" stroke-width="1" />
+  <text x="850" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">CI/CD Pipeline</text>
+  <text x="850" y="295" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">GitHub Actions + ArgoCD</text>
+  
+  <rect x="770" y="325" width="160" height="60" rx="5" ry="5" fill="#eeeeee" stroke="#616161" stroke-width="1" />
+  <text x="850" y="345" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Infrastructure as Code</text>
+  <text x="850" y="365" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Terraform + Pulumi</text>
+  
+  <rect x="770" y="395" width="160" height="60" rx="5" ry="5" fill="#eeeeee" stroke="#616161" stroke-width="1" />
+  <text x="850" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Monitoring</text>
+  <text x="850" y="435" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Prometheus + Grafana</text>
+  
+  <rect x="770" y="465" width="160" height="60" rx="5" ry="5" fill="#eeeeee" stroke="#616161" stroke-width="1" />
+  <text x="850" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Logging</text>
+  <text x="850" y="505" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">OpenTelemetry + Loki</text>
+  
+  <rect x="770" y="535" width="160" height="60" rx="5" ry="5" fill="#eeeeee" stroke="#616161" stroke-width="1" />
+  <text x="850" y="555" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Backup & Recovery</text>
+  <text x="850" y="575" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">GCP + Azure Redundancy</text>
+  
+  <!-- Connection lines -->
+  <!-- Client to Frontend -->
+  <path d="M385 190 L385 210" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="385,210 380,200 390,200" fill="#666" />
+  
+  <!-- Frontend to API Gateway -->
+  <path d="M385 290 L385 310" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="385,310 380,300 390,300" fill="#666" />
+  
+  <!-- API Gateway to Microservices -->
+  <path d="M385 360 L385 380" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="385,380 380,370 390,370" fill="#666" />
+  
+  <!-- Microservices to Database -->
+  <path d="M385 500 L265 520" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="265,520 260,510 270,510" fill="#666" />
+  
+  <!-- Microservices to Storage -->
+  <path d="M385 500 L400 520" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="400,520 395,510 405,510" fill="#666" />
+  
+  <!-- Microservices to AI -->
+  <path d="M385 500 L610 520" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="610,520 605,510 615,510" fill="#666" />
+  
+  <!-- Bi-directional between DevOps and All Layers -->
+  <path d="M720 335 L750 335" stroke="#666" stroke-width="2" fill="none" />
+  <polygon points="750,335 740,330 740,340" fill="#666" />
+  <polygon points="720,335 730,330 730,340" fill="#666" />
+  
+  <!-- Legend -->
+  <rect x="50" y="650" width="900" height="20" fill="none" />
+  <text x="500" y="665" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Primary Cloud: Google Cloud Platform (GCP) | Secondary: Azure | Orchestration: Kubernetes/GKE | CI/CD: GitHub Actions + ArgoCD</text>
+</svg>
